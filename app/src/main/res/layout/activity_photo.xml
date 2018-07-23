@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PhotoActivity">
+    tools:context=".ui.photo.PhotoActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -22,13 +22,22 @@
 
     <include layout="@layout/content_photo" />
 
-    <Button
-        android:id="@+id/btnSave"
-        style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="match_parent"
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabGallery"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:enabled="true"
-        android:text="@string/save" />
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="@color/md_teal_500"
+        app:srcCompat="@drawable/ic_photo_white_24dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="@color/md_amber_500"
+        app:srcCompat="@drawable/ic_check_circle_white_24dp" />
 
 </android.support.design.widget.CoordinatorLayout>

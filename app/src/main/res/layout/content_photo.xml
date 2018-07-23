@@ -5,13 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".PhotoActivity"
+    tools:context=".ui.photo.PhotoActivity"
     tools:showIn="@layout/activity_photo">
 
     <com.carlitosdroid.view.ImageCropperView
         android:id="@+id/icvPhoto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/md_teal_500"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
