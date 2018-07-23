@@ -2,4 +2,7 @@
     <string name="app_name">AndroidGoogleCloud</string>
     <string name="action_settings">Settings</string>
     <string name="name">Name</string>
+    <string name="update_information">Update Information</string>
+    <string name="title_activity_photo">PhotoActivity</string>
+    <string name="save">Save</string>
 </resources>
